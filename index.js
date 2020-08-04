@@ -34,7 +34,7 @@ app.use(session({
 
 var keycloakConfig ={
   "realm": "myrealm",
-  "auth-server-url": "https://keycloak.maplesaver-2025abf5e73a457f12bb6f6fae6f9c13-0000.tor01.containers.appdomain.cloud/auth",
+  "auth-server-url": "https://<OCP-KeyCloak-Route>/auth",
   "ssl-required": "external",
   "resource": "nodejs-example",
   "public-client": true,
